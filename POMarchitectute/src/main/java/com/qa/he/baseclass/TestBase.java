@@ -19,7 +19,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			props=new Properties();
-			FileInputStream ip = new FileInputStream("D:\\Selenium Projects\\Hireeagles Selenium\\POMarchitectute\\src\\main\\java\\com"+"\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("D:\\POMarchitectute\\src\\main\\java\\com"+"\\qa\\config\\config.properties");
 			props.load(ip);;
 		}
 		catch(FileNotFoundException e){
