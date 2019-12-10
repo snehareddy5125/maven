@@ -34,6 +34,6 @@ public class LoginPageTest extends TestBase{
 	}
 	@AfterSuite
 	public void teardowm() {
-		//driver.quit();
+		driver.quit();
 	}
 }
